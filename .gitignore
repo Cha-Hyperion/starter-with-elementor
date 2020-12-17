@@ -4,7 +4,7 @@ wp-config.php
 
 wp-content/*
 
-!wp-content/themes
+wp-content/themes/*
 !wp-content/themes/hello-elementor-child
 
 wp-content/plugins
