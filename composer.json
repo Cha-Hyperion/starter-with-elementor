@@ -1,0 +1,42 @@
+{
+    "name": "nomduprojet/nomduclient",
+    "description": "Description du projet",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Charlene Zybala",
+            "homepage": "https://charlenezybala.com",
+            "email": "contact@charlenezyabala.com"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "^5.6",
+        "wpackagist-plugin/elementor": "^3.0",
+        "wpackagist-theme/hello-elementor": "^2.3",
+        "wpackagist-plugin/updraftplus": "^1.16",
+        "wpackagist-plugin/wordpress-seo": "^15.4",
+        "wpackagist-plugin/better-wp-security": "^7.9",
+        "wpackagist-plugin/advanced-custom-fields": "^5.9",
+        "wpackagist-plugin/tiny-compress-images": "^3.2",
+        "wpackagist-plugin/wp-optimize": "^3.1",
+        "wpackagist-plugin/w3-total-cache": "^0.15.2",
+        "wpackagist-plugin/google-analytics-for-wordpress": "^7.14"
+    },
+    "require-dev": {
+        "wpackagist-plugin/query-monitor": "^3.6",
+        "wpackagist-plugin/fakerpress": "^0.5.0",
+        "wpackagist-plugin/check-email": "^0.6.2"
+    },
+    "extra": {
+        "wordpress-install-dir": "wp"
+    },
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "scripts": {
+        "build-theme-assets": "cd wp-content/themes/paranges/src && parcel build js/main.js --out-dir dist --public-url ./"
+     }
+}
