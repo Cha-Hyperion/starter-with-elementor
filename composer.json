@@ -6,7 +6,7 @@
         {
             "name": "Charlene Zybala",
             "homepage": "https://charlenezybala.com",
-            "email": "contact@charlenezyabala.com"
+            "email": "contact@charlenezybala.com"
         }
     ],
     "require": {
@@ -21,23 +21,26 @@
         "wpackagist-plugin/wp-optimize": "^3.1",
         "wpackagist-plugin/w3-total-cache": "^0.15.2",
         "wpackagist-plugin/cookie-script-com": "^1.0",
-        "wpackagist-plugin/google-analytics-for-wordpress": "^7.14"
+        "wpackagist-plugin/google-analytics-for-wordpress": "^7.14",
+        "wpackagist-theme/twentytwentyone": "^1.1",
+        "wpackagist-plugin/all-in-one-wp-migration": "^7.33",
+        "wpackagist-plugin/worker": "^4.9",
+        "wpackagist-plugin/wp-mail-smtp": "^2.5"
     },
     "require-dev": {
         "wpackagist-plugin/query-monitor": "^3.6",
-        "wpackagist-plugin/fakerpress": "^0.5.0",
-        "wpackagist-plugin/check-email": "^0.6.2"
+        "wpackagist-plugin/fakerpress": "^0.5.0"
     },
     "extra": {
         "wordpress-install-dir": "wp"
     },
-    "repositories":[
+    "repositories": [
         {
-            "type":"composer",
-            "url":"https://wpackagist.org"
+            "type": "composer",
+            "url": "https://wpackagist.org"
         }
     ],
     "scripts": {
         "build-theme-assets": "cd wp-content/themes/paranges/src && parcel build js/main.js --out-dir dist --public-url ./"
-     }
+    }
 }

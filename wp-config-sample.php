@@ -20,12 +20,15 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+//avec Local : local
 define( 'DB_NAME', '' );
 
 /** MySQL database username */
+//avec Local : root
 define( 'DB_USER', '' );
 
 /** MySQL database password */
+//avec Local : root
 define( 'DB_PASSWORD', '' );
 
 /** MySQL hostname */
@@ -80,6 +83,7 @@ $table_prefix = 'wp_';
 define( 'WP_DEBUG', false );
 
 // Je définis l'URL vers la page d'accueil de mon site
+//avec Local : rtrim ( 'http://nomdemonsiteenlocal.local', '/' ), attention http ou https
 define(
     'WP_HOME',
     rtrim ( 'put your URL here', '/' )
