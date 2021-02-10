@@ -1,6 +1,24 @@
 vendor
 wp
+wordpress
 wp-config.php
+error_log
+.well-known
 
+wp-content/ai1wm-backups
+wp-content/cache
+wp-content/languages
+wp-content/mu-plugins
+wp-content/updraft
+wp-content/upgrade
+wp-content/uploads
+wp-content/w3tc-config
+wp-content/wpo-cache
+wp-content/object-cache.php
+wp-content/advanced-cache.php
+wp-content/wp-cache-config.php
+
+wp-content/plugins/*
+!wp-content/plugins/nomdupluginmaison
 wp-content/themes/*
 !wp-content/themes/hello-elementor-child
